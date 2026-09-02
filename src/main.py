@@ -11,7 +11,7 @@ dir_path_public = "./docs"
 dir_path_content = "./content"
 template_path = "./template.html"
 if len(sys.argv) >= 2:
-    basepath = sys.argv[0]
+    basepath = sys.argv[1]
 else:
     basepath = "/"
 
